@@ -2,7 +2,7 @@ import { from, map, Observable, switchMap } from 'rxjs';
 import { Component } from '../types/component';
 import { BaseLanguageModelInput } from 'langchain/dist/base_language';
 import { IterableReadableStream } from 'langchain/dist/util/stream';
-import { BaseLLM, LLM } from 'langchain/dist/llms/base';
+import { BaseLLM } from 'langchain/dist/llms/base';
 import { GenerateStoryPrompt } from '../prompts/generate-story';
 
 export abstract class AI {

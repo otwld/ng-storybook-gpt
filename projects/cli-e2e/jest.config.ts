@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
   displayName: 'cli-e2e',
-  preset: '..//jest.preset.js',
+  preset: '../../jest.preset.js',
   setupFiles: ['<rootDir>/src/test-setup.ts'],
   testEnvironment: 'node',
   transform: {
@@ -13,5 +13,5 @@ export default {
     ],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '..//coverage/cli-e2e',
+  coverageDirectory: '../../coverage/cli-e2e',
 };

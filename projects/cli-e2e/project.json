@@ -8,7 +8,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{e2eProjectRoot}"],
       "options": {
-        "jestConfig": "cli-e2e/jest.config.ts",
+        "jestConfig": "projects/cli-e2e/jest.config.ts",
         "passWithNoTests": true
       }
     },
@@ -16,7 +16,7 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["cli-e2e/**/*.{js,ts}"]
+        "lintFilePatterns": ["projects/cli-e2e/**/*.{js,ts}"]
       }
     }
   }
